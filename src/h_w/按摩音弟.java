@@ -1,0 +1,13 @@
+package h_w;
+
+public class «ö¼¯­µ§Ì {
+
+	public static void main(String[] args) {
+		String lyrics = "Let it go! Let it go! Cannot hold it back anymore";
+		String lyrics2 = lyrics.replace("it","\"her\"");
+		String lyrics3 = lyrics2.replace("Cannot","Can't");
+		System.out.println(lyrics3);
+
+	}
+
+}
